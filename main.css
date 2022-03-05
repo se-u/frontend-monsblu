@@ -31,7 +31,7 @@ nav{
 }
 
 .toc-wrapper{
-    border-left: 2px solid #A7E9AF;
+    border-left: 2px solid #a7e9afc2;
     padding-left: 0.75rem;
     list-style: none;
 }
@@ -92,5 +92,16 @@ blockquote {
     text-align: left;
     padding: 15px;
     margin: 15px;
+}
+.toc-nav{
+    font-size: 0.80rem;
+    height: 200px ;
+    margin-top: 18px;
+    padding: 15px;
+    box-shadow: none;
+}
+
+.toc-nav li{
+    padding: 9px 5px;;
 }
 
