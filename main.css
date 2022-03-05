@@ -12,9 +12,9 @@ nav{
     letter-spacing: 1px;
 }
 
-@media (min-width: 768px){
+@media (max-width: 1080px){
     nav{
-        height: inherit;
+        height: auto;
     }
 }
 
@@ -70,7 +70,7 @@ nav{
 }
 
 h1{
-    font-size: 35px;
+    /* font-size: 35px; */
     font-weight: 600;
     text-align: left;
     color: #2b546a;
@@ -116,5 +116,13 @@ blockquote {
 
 .toc-nav li{
     padding: 9px 5px;;
+}
+
+.tutorial-view .meta{
+    text-align: left;
+}
+
+.meta i{
+    padding-right:10px;
 }
 
