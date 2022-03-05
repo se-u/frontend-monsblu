@@ -4,11 +4,18 @@ body {
     font-family: "Lato";
     background-color: #f9fbfe;
 }
+
 nav{
     height: 48px;
     box-shadow: 0 1px 3px rgba(160,166,179,0.3);
     font-size:  0.75rem;
     letter-spacing: 1px;
+}
+
+@media (min-width: 768px){
+    nav{
+        height: inherit;
+    }
 }
 
 .navbar-brand{
@@ -51,13 +58,14 @@ nav{
 }
 
 .tutorial-view{
-    width: 617px;
     text-align: center;
+    padding: 12px;
 }
 
 
-img{
-    height: 350px;
+.tutorial-view img{
+    width: 60%;
+    height: inherit;
     border-radius: 3px;
 }
 
@@ -92,7 +100,6 @@ h3{
 
 blockquote {
     font-style: italic;
-    font-weight: 600;
     border-left: 3px solid #A7E9AF;
     text-align: left;
     padding: 15px;
