@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: "Lato";
+    background-color: #f9fbfe;
+}
+nav{
+    height: 48px;
+    box-shadow: 0 1px 3px rgba(160,166,179,0.3);
+    font-size:  0.75rem;
+    letter-spacing: 1px;
+}
+
+.navbar-brand{
+    font-size: 14px;
+}
+
+.bg-light{
+    background-color: #fff !important;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    font-size: 14px;;
+    color: #fff;
+    
+}
+
+.form-control{
+    padding: .200rem .75rem;
+}
+
+.toc-wrapper{
+    border-left: 1px solid #777777;
+    padding-left: 0.75rem;
+    list-style: none;
+}
+
+.toc-wrapper a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.toc-wrapper a:hover{
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+.tutorial-view{
+    width: 617px;;
+}
